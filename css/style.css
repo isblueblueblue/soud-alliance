@@ -1,4 +1,5 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 @import "reset.css";
 @import "variables.css";
@@ -9,14 +10,37 @@
 @import "components/visual.css";
 
 /* screens */
+@import "screens/home.css";
 
 body,
 input {
   font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
     "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR",
     "Malgun Gothic", sans-serif;
-  color: --main-color;
+  color: var(--main-color);
 }
+
 body {
   width: 100vw;
+}
+
+h3 {
+  font-family: "Noto Serif", serif;
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+
+strong {
+  font-family: "Noto Serif", serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+p {
+}
+
+.inner {
+  width: 1280px;
+  margin: auto;
 }

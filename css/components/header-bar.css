@@ -7,8 +7,9 @@
   position: fixed;
   top: 0;
   box-sizing: border-box;
-  background-color: #fff;
+  background-color: var(--white);
   align-items: center;
+  z-index: 100;
 }
 
 .header-bar__logo img {
