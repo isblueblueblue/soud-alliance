@@ -1,0 +1,10 @@
+.main-visual {
+  width: 100%;
+  height: 1000px;
+  overflow: hidden;
+}
+
+.main-visual img {
+  width: 100%;
+  display: block;
+}
