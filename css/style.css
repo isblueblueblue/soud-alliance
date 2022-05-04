@@ -18,6 +18,7 @@ input {
     "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR",
     "Malgun Gothic", sans-serif;
   color: var(--main-color);
+  font-size: 18px;
 }
 
 body {
@@ -37,7 +38,10 @@ strong {
   font-weight: bold;
 }
 
-p {
+em {
+  font-size: 22px;
+  font-weight: 600;
+  display: block;
 }
 
 .inner {

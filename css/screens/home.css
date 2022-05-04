@@ -51,3 +51,46 @@
 .our-story__right__img-wrap img {
   width: 100%;
 }
+
+.event {
+  padding: var(--section-padding);
+}
+
+.event__items {
+  position: relative;
+}
+
+.event__items button {
+  position: absolute;
+  top: 50%;
+  font-size: 50px;
+  transform: translateY(-50%);
+  color: var(--gray);
+  cursor: pointer;
+}
+
+.event__items .slick-prev {
+  left: -80px;
+}
+
+.event__items .slick-next {
+  right: -80px;
+}
+
+.event__items__item div img {
+  width: 100%;
+}
+
+/* slick 간격 조정 */
+.event .slick-list {
+  margin: 0 -20px;
+}
+
+.slick-slide {
+  margin: 0 20px;
+}
+
+.event__items__item__title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
