@@ -1,5 +1,31 @@
 /* components */
-@import "components/nav-bar.css";
 @import "components/keyframes.css";
+@import "components/nav-bar.css";
+@import "components/visual.css";
 
 /* screens */
+@import "screens/home.css";
+
+.inner {
+  max-width: 1280px;
+  margin: auto;
+}
+
+h3 {
+  font-family: "Noto Serif", serif;
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+
+strong {
+  font-family: "Noto Serif", serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+em {
+  font-size: 22px;
+  font-weight: 600;
+  display: block;
+}

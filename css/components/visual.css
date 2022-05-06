@@ -1,0 +1,8 @@
+.visual {
+  width: 100%;
+  overflow: hidden;
+  height: 65.625em;
+}
+.visual .img-fluid {
+  width: 100%;
+}
