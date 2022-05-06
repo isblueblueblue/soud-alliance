@@ -1,0 +1,62 @@
+.navbar {
+  height: 110px;
+  position: fixed;
+  padding: 2.188em 3.5em;
+  width: 100%;
+}
+
+.navbar-brand img {
+  width: 12em;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.nav-link {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons a.btn:focus,
+.icons a.btn:active {
+  box-shadow: none;
+}
+
+.icons a.btn:hover .bxl-instagram {
+  -webkit-animation: heartbeat 1.5s ease-in-out both;
+  animation: heartbeat 1.5s ease-in-out both;
+  will-change: transform;
+}
+
+.bxl-instagram {
+  font-size: 2.5em;
+  vertical-align: sub;
+}
+
+.bx-globe {
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+
+.globa-dropdown-toggle {
+  margin-right: 0;
+}
+
+.globa-dropdown-toggle::after {
+  vertical-align: middle;
+}
+
+.globa-dropdown .dropdown-menu {
+  min-width: 0;
+}
+
+.globa-dropdown .dropdown-menu[data-bs-popper] {
+  left: 10%;
+}
