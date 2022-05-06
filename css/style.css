@@ -12,6 +12,7 @@
 
 /* screens */
 @import "screens/home.css";
+@import "screens/about.css";
 
 body,
 input {
