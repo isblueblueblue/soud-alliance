@@ -1,3 +1,172 @@
+/* our story */
 .our-story {
   padding: var(--section-padding);
+}
+
+.our-story .inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-story__left {
+  width: 30%;
+}
+.our-story__left strong {
+  opacity: 60%;
+  font-size: 1.875em;
+  margin-bottom: 2.5rem;
+  display: block;
+}
+.our-story__left p {
+  line-height: 3rem;
+  font-size: 1.5em;
+  text-align: justify;
+}
+
+.our-story__right {
+  width: 65%;
+  position: relative;
+  height: 46.875rem;
+}
+
+.our-story__right__img-wrap {
+  overflow: hidden;
+  height: 41.25rem;
+  position: absolute;
+}
+
+.our-story__right__img-wrap:first-child {
+  top: 0;
+  right: 0;
+  width: 70%;
+  height: 41.25rem;
+}
+
+.our-story__right__img-wrap:last-child {
+  bottom: 0;
+  left: 0;
+  width: 60%;
+  height: 37.5rem;
+}
+
+.our-story__right__img-wrap img {
+  width: 100%;
+}
+
+/* event */
+.event {
+  padding: var(--section-padding);
+}
+
+.event__items {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.event__items button {
+  position: absolute;
+  top: 35%;
+  font-size: 3em;
+  cursor: pointer;
+  border: none;
+  vertical-align: middle;
+  background-color: #fff;
+  color: var(--bs-gray-400);
+}
+
+.event__items .slick-prev {
+  left: -5rem;
+}
+
+.event__items .slick-next {
+  right: -5rem;
+}
+
+.event__items__item div img {
+  width: 100%;
+}
+
+.slick .slick-list {
+  margin: 0 -1.25rem;
+}
+
+.slick-slide {
+  margin: 0 1.25rem;
+}
+
+.event__items__item__title {
+  margin-top: 1.25rem;
+  margin-bottom: 0.625rem;
+}
+
+/* location */
+.location {
+  padding: var(--section-padding);
+  background-image: url(/images/screens/main/location.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.location .inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.location a,
+.location p {
+  color: var(--bs-gray-100);
+  text-decoration: none;
+}
+
+.location:hover .location__more i {
+  -webkit-animation: shake-horizontal 4s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+    infinite both;
+  animation: shake-horizontal 4s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+    infinite both;
+}
+
+.location__more {
+  font-size: 1.25em;
+  font-weight: 500;
+  letter-spacing: 0.125rem;
+}
+
+.location__more i {
+  opacity: 95%;
+  font-size: 1.438rem;
+  margin-left: 0.35rem;
+  vertical-align: middle;
+}
+
+/* partners */
+.partners {
+  padding: 6.25rem 0;
+}
+
+.partners .inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.partners h3 {
+  font-size: 1em;
+}
+
+.partners__list {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.partners__item {
+}
+
+.partners__item img {
+  width: 7.5em;
 }

@@ -13,9 +13,9 @@
 
 h3 {
   font-family: "Noto Serif", serif;
-  font-size: 64px;
+  font-size: 4em;
   font-weight: bold;
-  margin-bottom: 80px;
+  margin-bottom: 5rem;
 }
 
 strong {
@@ -25,7 +25,13 @@ strong {
 }
 
 em {
-  font-size: 22px;
+  font-size: 1.375em;
   font-weight: 600;
   display: block;
+  font-style: normal;
+}
+
+ol,
+ul {
+  list-style: none;
 }

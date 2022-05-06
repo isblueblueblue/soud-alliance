@@ -1,12 +1,13 @@
-.navbar {
-  height: 6.875em;
+header .navbar {
+  height: 6.875rem;
   position: fixed;
-  padding: 2.188em 3.5em;
+  padding: 2.188rem 3.5rem;
   width: 100%;
+  z-index: 100;
 }
 
 .navbar-brand img {
-  width: 12em;
+  width: 12rem;
 }
 
 .navbar-collapse {
