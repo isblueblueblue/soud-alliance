@@ -8,6 +8,7 @@
 @import "components/header-bar.css";
 @import "components/keyframes.css";
 @import "components/visual.css";
+@import "components/footer.css";
 
 /* screens */
 @import "screens/home.css";
@@ -23,6 +24,7 @@ input {
 
 body {
   width: 100vw;
+  overflow-x: hidden;
 }
 
 h3 {
@@ -42,6 +44,24 @@ em {
   font-size: 22px;
   font-weight: 600;
   display: block;
+}
+
+#skipNav a {
+  position: absolute;
+  left: 0;
+  top: -1000px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  background: #000;
+  color: #fff;
+  z-index: 500;
+}
+#skipNav a:hover,
+#skipNav a:active,
+#skipNav a:focus {
+  top: 0;
 }
 
 .inner {
