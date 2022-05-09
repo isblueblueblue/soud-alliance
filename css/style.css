@@ -2,6 +2,7 @@
 @import "components/keyframes.css";
 @import "components/nav-bar.css";
 @import "components/visual.css";
+@import "components/footer.css";
 
 /* screens */
 @import "screens/home.css";
