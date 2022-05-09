@@ -11,6 +11,25 @@
   margin: auto;
 }
 
+.hide {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  text-indent: -9999em;
+  overflow: hidden;
+  visibility: hidden;
+  line-height: 0;
+}
+
+h2 {
+  font-family: "Noto Serif", serif;
+  font-size: 4em;
+  font-weight: bold;
+  padding-top: 12.5rem;
+}
+
 h3 {
   font-family: "Noto Serif", serif;
   font-size: 4em;
@@ -31,7 +50,17 @@ em {
   font-style: normal;
 }
 
+p {
+  line-height: 1.8em;
+  font-size: 1.3em;
+  margin-bottom: 0;
+}
+
 ol,
 ul {
   list-style: none;
+}
+
+.on {
+  opacity: 40%;
 }

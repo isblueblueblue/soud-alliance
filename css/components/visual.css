@@ -1,8 +1,18 @@
 .visual {
   width: 100%;
   overflow: hidden;
-  height: 65.625rem;
 }
 .visual .img-fluid {
   width: 100%;
+}
+
+.main-visual {
+  height: 65.625rem;
+}
+
+.sub-visual {
+  height: 37.5rem;
+  background-image: url(/images/screens/visual.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
