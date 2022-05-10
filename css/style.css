@@ -9,6 +9,7 @@
 @import "screens/about.css";
 @import "screens/our-team.css";
 @import "screens/project.css";
+@import "screens/news.css";
 
 .inner {
   max-width: 1280px;

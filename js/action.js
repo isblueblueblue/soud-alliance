@@ -4,9 +4,7 @@ $(function () {
   sub();
 });
 
-function common() {
-  AOS.init();
-}
+function common() {}
 
 function main() {
   $(".event__items").slick({
@@ -33,7 +31,9 @@ function main() {
   });
 }
 
-function sub() {}
+function sub() {
+  AOS.init();
+}
 
 var mapContainer = document.getElementById("map"), // 지도를 표시할 div
   mapOption = {

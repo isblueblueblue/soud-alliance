@@ -1,0 +1,19 @@
+/* news */
+.news {
+  padding: var(--section-padding);
+}
+.news-list__item {
+  height: 25rem;
+  background-color: var(--bs-green);
+  padding: 2.4rem 3.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.news-list__item:nth-child(2),
+.news-list__item:nth-child(3) {
+  background-color: var(--bs-yellow);
+}
+.news-list__item__text p {
+  font-size: 1.125em;
+}

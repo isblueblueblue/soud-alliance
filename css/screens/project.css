@@ -24,6 +24,9 @@
 }
 
 /* history */
+.history {
+  padding: var(--section-padding);
+}
 .timeline {
   border-left: 1px solid hsl(0, 0%, 90%);
   position: relative;
