@@ -184,3 +184,15 @@
 .sub-location {
   padding: var(--section-padding);
 }
+
+.sub-location__place {
+  margin-bottom: 2.5rem;
+}
+
+.sub-location__place em {
+  margin-bottom: 1.5rem;
+}
+
+.sub-location__place p {
+  font-size: 1.188em;
+}
