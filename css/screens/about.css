@@ -34,12 +34,17 @@
   font-size: 1.2em;
 }
 
+.ceo-performance {
+  margin-top: 6.25rem;
+}
+
 .ceo-performance span {
   font-size: 2.438em;
   font-weight: 700;
   opacity: 13%;
   position: relative;
   padding: 0;
+  line-height: 0.7em;
 }
 
 .ceo-performance span:first-of-type::after {
@@ -49,7 +54,90 @@
   background-color: #121212;
   height: 0.13em;
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 30%;
   margin-left: 1.25rem;
+}
+
+.ceo-performance span:last-of-type {
+  text-align: end;
+}
+
+.ceo-performance-list .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 320px;
+  padding: 40px 30px 30px 30px;
+}
+.ceo-performance-list .col:nth-child(2n-1) {
+  background-color: var(--bs-orange);
+  padding-right: 10px;
+}
+
+.ceo-performance-list .col em {
+  margin-bottom: 1.375em;
+}
+
+.ceo-performance-list .col p {
+  max-height: 70%;
+  text-align: justify;
+  overflow: auto;
+  font-size: 1.125em;
+  -webkit-text-fill-color: black;
+  transition: color 0.3s ease;
+  color: rgba(0, 0, 0, 0);
+}
+
+.scroll-edit::-webkit-scrollbar,
+.scroll-edit::-webkit-scrollbar-thumb {
+  width: 26px;
+  border-radius: 13px;
+  background-clip: padding-box;
+  border: 10px solid transparent;
+}
+
+.scroll-edit::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 0 10px;
+}
+
+.ceo-performance-list .col:hover p {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/* velue */
+.velue {
+  padding: var(--section-padding);
+}
+.velue-wrap__text__item {
+  padding: 30px;
+  text-align: center;
+}
+.velue-wrap__text__item strong {
+  font-size: 1.375em;
+  font-family: var(--bs-font-sans-serif);
+  font-style: normal;
+  font-weight: 600;
+}
+.velue-wrap__text__item em {
+  font-weight: 400;
+  font-size: 1em;
+  margin-top: 7px;
+  display: block;
+  margin-bottom: 1.875rem;
+}
+.velue-wrap__text__item p {
+  font-size: 1.125em;
+}
+.velue-wrap__img {
+  display: flex;
+  justify-content: center;
+  padding-left: 2.5rem;
+}
+.velue-wrap__img img {
+  object-fit: contain;
+}
+
+/* our service */
+.our-service {
+  padding: var(--section-padding);
 }
