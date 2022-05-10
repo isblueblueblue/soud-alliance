@@ -4,7 +4,9 @@ $(function () {
   sub();
 });
 
-function common() {}
+function common() {
+  AOS.init();
+}
 
 function main() {
   $(".event__items").slick({

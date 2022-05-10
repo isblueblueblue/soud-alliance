@@ -1,3 +1,29 @@
+/* business */
+.business {
+  padding: var(--section-padding);
+}
+.business-type {
+  margin-bottom: 6.25rem;
+}
+
+.business-type__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.business-type:nth-child(2n-1) .business-type__text {
+  text-align: right;
+}
+
+.business-type__text strong {
+  font-size: 1.375em;
+}
+
+.business-type__text p {
+  font-size: 1.125em;
+}
+
+/* history */
 .timeline {
   border-left: 1px solid hsl(0, 0%, 90%);
   position: relative;
