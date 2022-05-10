@@ -141,3 +141,46 @@
 .our-service {
   padding: var(--section-padding);
 }
+
+.our-service__list {
+}
+.our-service__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 1.375em;
+  font-weight: 600;
+  text-align: center;
+  background-color: var(--bs-teal);
+}
+
+.our-service__item:nth-child(2n) {
+  background-color: var(--bs-cyan);
+}
+
+.our-service__item:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.our-service__video {
+  width: 100%;
+  position: relative;
+  padding-top: 56%;
+  margin-top: 6.25rem;
+}
+
+.our-service__video iframe {
+  width: 99%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* sub-location */
+.sub-location {
+  padding: var(--section-padding);
+}
