@@ -1,0 +1,54 @@
+.intro {
+  padding: var(--section-padding);
+  text-align: center;
+}
+
+.intro h3 {
+  opacity: 20%;
+}
+
+.intro strong {
+  font-size: 1.875em;
+  margin-bottom: 2.5rem;
+  display: block;
+}
+
+/* meet the crew */
+.meet-crew {
+  padding: var(--section-padding);
+}
+.crew__people {
+  margin-bottom: 3.125rem;
+}
+.crew__people__img {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  max-height: 480px;
+}
+.crew__people__img img {
+  width: 100%;
+  height: 100%;
+}
+.crew__people__text {
+  padding: 0 0.625rem;
+}
+.crew__people__text strong {
+  font-size: 1.875em;
+  display: block;
+  margin-top: 1.25rem;
+}
+
+.crew__people__text em {
+  font-size: 1.375em;
+  display: block;
+  margin-bottom: 0.775rem;
+  margin-top: 1.2rem;
+}
+.crew__people__text p {
+  font-size: 1.125em;
+}
+.group-img {
+  margin-top: 6.25rem;
+}
