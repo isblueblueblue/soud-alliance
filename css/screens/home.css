@@ -16,11 +16,13 @@
   font-size: 1.875em;
   margin-bottom: 2.5rem;
   display: block;
+  color: var(--theme-color-03);
 }
 .our-story__left p {
   line-height: 3rem;
-  font-size: 1.5em;
+  font-size: 1.375em;
   text-align: justify;
+  font-weight: 500;
 }
 
 .our-story__right {

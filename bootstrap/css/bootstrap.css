@@ -72,6 +72,10 @@
   /*  */
   --section-padding: 11.875rem 0px;
   --main-color: rgb(79, 84, 88);
+  --theme-color-01: rgb(106, 123, 139);
+  --theme-color-02: rgb(179, 197, 207);
+  --theme-color-03: rgb(160, 161, 157);
+  --theme-color-04: rgb(232, 236, 229);
   --nav-hover-color: rgb(106, 123, 139);
 }
 
