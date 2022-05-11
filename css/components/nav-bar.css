@@ -1,9 +1,29 @@
-header .navbar {
-  height: 6.875rem;
+.navbar {
+  height: 6rem;
   position: fixed;
-  padding: 2.188rem 3.5rem;
+  display: flex;
+  justify-content: center;
+  padding: 0 3.5rem;
   width: 100%;
   z-index: 100;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* scroll drop */
+.navbar.drop {
+  position: fixed;
+  animation: dropHeader ease-out 0.4s forwards;
+}
+
+@keyframes dropHeader {
+  0% {
+    top: -5rem;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  100% {
+    top: 0;
+    background-color: rgba(255, 255, 255);
+  }
 }
 
 .navbar-brand img {
@@ -19,6 +39,38 @@ header .navbar {
   font-weight: 700;
   margin-right: 2rem;
   margin-left: 2rem;
+  position: relative;
+}
+
+.nav-link-text {
+  transition: color 0.5s;
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.nav-link-text::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 40%;
+  left: 0;
+  bottom: 10%;
+  opacity: 0.3;
+  transform: scale3d(0, 1, 1);
+  transform-origin: 0% 50%;
+  transition: transform 0.5s;
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  background: var(--nav-hover-color);
+}
+
+.nav-item .nav-link:hover .nav-link-text,
+.nav-item .nav-link:focus .nav-link-text {
+  color: var(--nav-hover-color);
+}
+
+.nav-link:hover .nav-link-text::before,
+.nav-link:focus .nav-link-text::before {
+  transform: scale3d(1, 1, 1);
 }
 
 .icons {
@@ -36,22 +88,29 @@ header .navbar {
   will-change: transform;
 }
 
+.icons .btn {
+  display: flex;
+  align-items: center;
+  border: none;
+}
+
 .bxl-instagram {
-  font-size: 2.5em;
-  vertical-align: sub;
+  font-size: 1.65rem;
+  color: rgba(79, 84, 88);
 }
 
 .bx-globe {
-  font-size: 1.5em;
-  vertical-align: middle;
+  font-size: 1.75rem;
+  color: rgba(79, 84, 88, 0.55);
 }
 
 .globa-dropdown-toggle {
   margin-right: 0;
+  font-size: 1em;
 }
 
-.globa-dropdown-toggle::after {
-  vertical-align: middle;
+.globa-dropdown-toggle:hover {
+  color: var(--main-color);
 }
 
 .globa-dropdown .dropdown-menu {

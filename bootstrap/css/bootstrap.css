@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
@@ -68,7 +68,11 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
+
+  /*  */
   --section-padding: 11.875rem 0px;
+  --main-color: rgb(79, 84, 88);
+  --nav-hover-color: rgb(106, 123, 139);
 }
 
 *,
@@ -4201,7 +4205,7 @@ fieldset:disabled .btn {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #0d6efd;
+  color: var(--main-color);
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out;
@@ -4211,10 +4215,12 @@ fieldset:disabled .btn {
     transition: none;
   }
 }
-.nav-link:hover,
-.nav-link:focus {
-  color: #0a58ca;
+
+/* .nav-link:focus */
+.nav-link:hover {
+  color: var(--nav-hover-color);
 }
+
 .nav-link.disabled {
   color: #6c757d;
   pointer-events: none;
