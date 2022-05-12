@@ -235,16 +235,16 @@
         </div>
       </section>
 
-      <section class="location">
-        <div class="inner">
-          <a href="about.html">
+      <section class="location" id="m-map" style="width: 100%; height: 400px">
+        <a href="about.html">
+          <div class="location-text">
             <h3>Location</h3>
             <p class="location__more">
               사운드 얼라이언스 오시는 길
               <i class="fa-solid fa-arrow-right-long"></i>
             </p>
-          </a>
-        </div>
+          </div>
+        </a>
       </section>
 
       <section class="partners">
@@ -287,34 +287,50 @@
     </main>
 
     <footer
-      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      class="flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
     >
-      <div class="col-md-4 d-flex align-items-center">
-        <a
-          href="/"
-          class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1 footer-logo"
-        >
-          <img
-            src="/images/common/footer_logo.png"
-            alt="사운드 얼라이언스 로고"
-            class="footer-logo__img"
-          />
-        </a>
-        <span class="text-muted"
-          >© 2022 Sound Alliance | All rights reserved.
-        </span>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1 footer-logo"
+          >
+            <img
+              src="/images/common/footer_logo.png"
+              alt="사운드 얼라이언스 로고"
+              class="footer-logo__img"
+            />
+          </a>
+          <span class="text-muted"
+            >© 2022 Sound Alliance | All rights reserved.
+          </span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a
+              class="text-muted"
+              href="https://www.instagram.com/sound.alliance/"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
       </div>
 
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3">
-          <a
-            class="text-muted"
-            href="https://www.instagram.com/sound.alliance/"
-          >
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-        </li>
-      </ul>
+      <div class="d-flex justify-content-between align-items-center footer-info">
+        <div class="col-md-4 d-flex align-items-center">
+          <p class="text-muted"></p>
+            <em>Add.</em> 서울특별시 종로구 대학로12길 21 예스24스테이지 402호
+          </p>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><em>T.</em> 070-1234-1234</li>
+          <li class="ms-3"><em>F.</em> 070-1234-1234</li>
+          <li class="ms-3"><em>E.</em> 070-1234-1234</li>
+        </ul>
+      </div>
     </footer>
 
     <!-- javascript -->
@@ -333,6 +349,7 @@
       type="text/javascript"
       src="//dapi.kakao.com/v2/maps/sdk.js?appkey=35035720f91dea1f683d2b7de8def0e5"
     ></script>
+    <script src="js/main-map.js"></script>
     <script type="text/javascript" src="js/action.js"></script>
   </body>
 </html>

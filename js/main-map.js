@@ -1,10 +1,16 @@
-var mapContainer = document.getElementById("map"), // 지도를 표시할 div
+var mapContainer = document.getElementById("m-map"), // 지도를 표시할 div
   mapOption = {
     center: new kakao.maps.LatLng(37.54444263501081, 127.05262636014902), // 지도의 중심좌표
-    level: 8, // 지도의 확대 레벨
+    level: 9, // 지도의 확대 레벨
   };
 
 var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+
+// 마우스 드래그와 모바일 터치를 이용한 지도 이동을 막는다
+map.setDraggable(false);
+
+// 마우스 휠과 모바일 터치를 이용한 지도 확대, 축소를 막는다
+map.setZoomable(false);
 
 // 마커를 표시할 위치와 title 객체 배열입니다
 var positions = [
