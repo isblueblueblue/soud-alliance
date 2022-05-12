@@ -9,6 +9,7 @@
 @import "screens/about.css";
 @import "screens/our-team.css";
 @import "screens/project.css";
+@import "screens/equipment.css";
 @import "screens/news.css";
 
 .inner {
@@ -69,8 +70,4 @@ p {
 ol,
 ul {
   list-style: none;
-}
-
-.on {
-  opacity: 40%;
 }

@@ -30,7 +30,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <h1>
             <a class="navbar-brand" href="index.html"
@@ -39,23 +39,35 @@
           </h1>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-              <li class="nav-item on">
-                <a class="nav-link" href="about.html">About</a>
+              <li class="nav-item">
+                <a class="nav-link on" href="about.html"
+                  ><span class="nav-link-text">About</span></a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="our-team.html">Our Team</a>
+                <a class="nav-link" href="our-team.html"
+                  ><span class="nav-link-text">Our Team</span></a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="project.html">Project</a>
+                <a class="nav-link" href="project.html"
+                  ><span class="nav-link-text">Project</span></a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="equipment.html">Equipment</a>
+                <a class="nav-link" href="equipment.html"
+                  ><span class="nav-link-text">Equipment</span></a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="news.html">News</a>
+                <a class="nav-link" href="news.html"
+                  ><span class="nav-link-text">News</span></a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contect.html">Contect</a>
+                <a class="nav-link" href="contect.html"
+                  ><span class="nav-link-text">Contect</span></a
+                >
               </li>
               <!-- <li class="nav-item">
                 <a class="nav-link disabled">Disabled</a>
@@ -92,7 +104,7 @@
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    <i class="bx bx-globe"></i>
+                    KO
                   </a>
                   <ul
                     class="dropdown-menu dropdown-menu-dark"
@@ -196,14 +208,14 @@
         </div>
       </section>
 
-      <section class="velue">
+      <section class="value">
         <div class="inner">
-          <h3>VELUE</h3>
+          <h3>VALUE</h3>
           <div class="container">
-            <div class="row velue-wrap">
-              <div class="col col-sm-7 velue-wrap__text">
+            <div class="row value-wrap">
+              <div class="col col-sm-7 value-wrap__text">
                 <div class="row row-cols-2">
-                  <div class="col velue-wrap__text__item">
+                  <div class="col value-wrap__text__item">
                     <strong>PEOPLE</strong>
                     <em>인재제일</em>
                     <p>
@@ -212,7 +224,7 @@
                       성장을 위한 밑거름이 되도록 한다.
                     </p>
                   </div>
-                  <div class="col velue-wrap__text__item">
+                  <div class="col value-wrap__text__item">
                     <strong>OWNERSHIP</strong>
                     <em>주인의식</em>
                     <p>
@@ -220,7 +232,7 @@
                       주도적인 자세로 업무에 책임을 다한다.
                     </p>
                   </div>
-                  <div class="col velue-wrap__text__item">
+                  <div class="col value-wrap__text__item">
                     <strong>COLLABORATION</strong>
                     <em>소통과 협력</em>
                     <p>
@@ -229,7 +241,7 @@
                       성장을 이룰 수 있도록 노력한다.
                     </p>
                   </div>
-                  <div class="col velue-wrap__text__item">
+                  <div class="col value-wrap__text__item">
                     <strong>CHALLENGE</strong>
                     <em>​도전과 실천</em>
                     <p>
@@ -240,7 +252,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col col-sm-5 velue-wrap__img">
+              <div class="col col-sm-5 value-wrap__img">
                 <img
                   src="/images/common/footer_logo.png"
                   alt="사운드 얼라이언스 로고"
@@ -256,14 +268,13 @@
           <h3>Our Service</h3>
           <div class="container">
             <div class="row row-cols-3 our-service__list">
-              <div class="col our-service__item">Sound Design</div>
-              <div class="col our-service__item">Operation</div>
-              <div class="col our-service__item">Rental &amp; Set-up</div>
-              <div class="col our-service__item">Pre/Post Audio Production</div>
-              <div class="col our-service__item">
-                Research &amp; Development
+              <div class="col our-service__item"><img src="/images/screens/about/our_service_01.jpg" class="img-fluid" alt="">Sound Design</div>
+              <div class="col our-service__item"><img src="/images/screens/about/our_service_02.jpg" class="img-fluid" alt="">Operation</div>
+              <div class="col our-service__item"><img src="/images/screens/about/our_service_03.jpg" class="img-fluid" alt="">Rental &amp; Set-up</div>
+              <div class="col our-service__item"><img src="/images/screens/about/our_service_04.jpg" class="img-fluid" alt="">Pre/Post Audio Production</div>
+              <div class="col our-service__item"><img src="/images/screens/about/our_service_05.jpg" class="img-fluid" alt="">Research &amp; Development
               </div>
-              <div class="col our-service__item">Art -Tech Museum Design</div>
+              <div class="col our-service__item"><img src="/images/screens/about/our_service_06.jpg" class="img-fluid" alt="">Art -Tech Museum Design</div>
             </div>
           </div>
           <div class="our-service__video">
@@ -280,7 +291,7 @@
         </div>
       </section>
 
-      <section class="sub-location">
+      <section class="sub-location" id="sub-location">
         <div class="inner">
           <h3>Location</h3>
           <div class="sub-location__place">
@@ -306,34 +317,50 @@
     </main>
 
     <footer
-      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      class="flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
     >
-      <div class="col-md-4 d-flex align-items-center">
-        <a
-          href="/"
-          class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1 footer-logo"
-        >
-          <img
-            src="/images/common/footer_logo.png"
-            alt="사운드 얼라이언스 로고"
-            class="footer-logo__img"
-          />
-        </a>
-        <span class="text-muted"
-          >© 2022 Sound Alliance | All rights reserved.
-        </span>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1 footer-logo"
+          >
+            <img
+              src="/images/common/footer_logo.png"
+              alt="사운드 얼라이언스 로고"
+              class="footer-logo__img"
+            />
+          </a>
+          <span class="text-muted"
+            >© 2022 Sound Alliance | All rights reserved.
+          </span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a
+              class="text-muted"
+              href="https://www.instagram.com/sound.alliance/"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
       </div>
 
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3">
-          <a
-            class="text-muted"
-            href="https://www.instagram.com/sound.alliance/"
-          >
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-        </li>
-      </ul>
+      <div class="d-flex justify-content-between align-items-center footer-info">
+        <div class="col-md-4 d-flex align-items-center">
+          <p class="text-muted"></p>
+            <em>Add.</em> 서울특별시 종로구 대학로12길 21 예스24스테이지 402호
+          </p>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><em>T.</em> 070-1234-1234</li>
+          <li class="ms-3"><em>F.</em> 070-1234-1234</li>
+          <li class="ms-3"><em>E.</em> 070-1234-1234</li>
+        </ul>
+      </div>
     </footer>
 
     <!-- javascript -->
@@ -352,7 +379,7 @@
       type="text/javascript"
       src="//dapi.kakao.com/v2/maps/sdk.js?appkey=35035720f91dea1f683d2b7de8def0e5"
     ></script>
-    <script src="js/map.js"></script>
+    <script src="js/sub-map.js"></script>
     <script type="text/javascript" src="js/action.js"></script>
   </body>
 </html>

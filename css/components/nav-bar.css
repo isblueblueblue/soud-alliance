@@ -120,3 +120,7 @@
 .globa-dropdown .dropdown-menu[data-bs-popper] {
   left: 15%;
 }
+
+.nav-link.on {
+  color: var(--nav-hover-color);
+}

@@ -1,0 +1,6 @@
+.console,
+.speaker,
+.mic,
+.intercom {
+  padding: var(--section-padding);
+}

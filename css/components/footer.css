@@ -1,6 +1,6 @@
 footer {
-  margin: 0 20px;
-  padding: 0 10px;
+  margin: 0 1.25rem;
+  padding: 0 0.625rem;
 }
 
 .footer-logo {
@@ -15,12 +15,12 @@ footer .fa-brands {
 }
 
 .footer-info {
-  margin-top: 30px;
+  margin-top: 1.875rem;
   color: #6c757d;
 }
 
 footer em {
   font-size: 1rem;
   display: inline;
-  margin-right: 5px;
+  margin-right: 0.313rem;
 }

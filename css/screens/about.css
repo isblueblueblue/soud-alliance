@@ -29,8 +29,8 @@
 
 .ceo-info__text em {
   display: block;
-  margin-top: 14px;
-  margin-bottom: 40px;
+  margin-top: 0.875rem;
+  margin-bottom: 2.5rem;
   font-size: 1.2em;
 }
 
@@ -67,11 +67,15 @@
   flex-direction: column;
   align-items: center;
   max-height: 320px;
-  padding: 40px 30px 30px 30px;
+  padding: 2.5rem 1.875rem 1.875rem 1.875rem;
 }
-.ceo-performance-list .col:nth-child(2n-1) {
-  background-color: var(--bs-orange);
-  padding-right: 10px;
+.ceo-performance-list .col:nth-child(odd) {
+  background-color: var(--theme-color-02);
+  padding-right: 0.625rem;
+}
+
+.ceo-performance-list .col:nth-child(even) {
+  background-color: var(--bs-gray-100);
 }
 
 .ceo-performance-list .col em {
@@ -104,36 +108,36 @@
   color: rgba(0, 0, 0, 0.3);
 }
 
-/* velue */
-.velue {
+/* value */
+.value {
   padding: var(--section-padding);
 }
-.velue-wrap__text__item {
+.value-wrap__text__item {
   padding: 30px;
   text-align: center;
 }
-.velue-wrap__text__item strong {
+.value-wrap__text__item strong {
   font-size: 1.375em;
   font-family: var(--bs-font-sans-serif);
   font-style: normal;
   font-weight: 600;
 }
-.velue-wrap__text__item em {
+.value-wrap__text__item em {
   font-weight: 400;
   font-size: 1em;
   margin-top: 7px;
   display: block;
   margin-bottom: 1.875rem;
 }
-.velue-wrap__text__item p {
+.value-wrap__text__item p {
   font-size: 1.125em;
 }
-.velue-wrap__img {
+.value-wrap__img {
   display: flex;
   justify-content: center;
   padding-left: 2.5rem;
 }
-.velue-wrap__img img {
+.value-wrap__img img {
   object-fit: contain;
 }
 
@@ -152,11 +156,19 @@
   font-size: 1.375em;
   font-weight: 600;
   text-align: center;
-  background-color: var(--bs-teal);
+  overflow: hidden;
+  background-color: #00000066;
+  color: var(--bs-white);
+  transition: 0.4s;
 }
 
-.our-service__item:nth-child(2n) {
-  background-color: var(--bs-cyan);
+.our-service__item:hover {
+  background-color: #00000010;
+}
+
+.our-service__item img {
+  position: absolute;
+  z-index: -10;
 }
 
 .our-service__item:after {
@@ -173,7 +185,7 @@
 }
 
 .our-service__video iframe {
-  width: 99%;
+  width: 100%;
   height: 100%;
   position: absolute;
   top: 0;

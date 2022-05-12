@@ -30,7 +30,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <h1>
             <a class="navbar-brand" href="index.html"
@@ -40,22 +40,34 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item on">
-                <a class="nav-link" href="our-team.html">Our Team</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="project.html">Project</a>
+                <a class="nav-link" href="about.html"
+                  ><span class="nav-link-text">About</span></a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="equipment.html">Equipment</a>
+                <a class="nav-link on" href="our-team.html"
+                  ><span class="nav-link-text">Our Team</span></a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="news.html">News</a>
+                <a class="nav-link" href="project.html"
+                  ><span class="nav-link-text">Project</span></a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contect.html">Contect</a>
+                <a class="nav-link" href="equipment.html"
+                  ><span class="nav-link-text">Equipment</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="news.html"
+                  ><span class="nav-link-text">News</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contect.html"
+                  ><span class="nav-link-text">Contect</span></a
+                >
               </li>
               <!-- <li class="nav-item">
                 <a class="nav-link disabled">Disabled</a>
@@ -92,7 +104,7 @@
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    <i class="bx bx-globe"></i>
+                    KO
                   </a>
                   <ul
                     class="dropdown-menu dropdown-menu-dark"
@@ -232,34 +244,50 @@
     </main>
 
     <footer
-      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      class="flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
     >
-      <div class="col-md-4 d-flex align-items-center">
-        <a
-          href="/"
-          class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1 footer-logo"
-        >
-          <img
-            src="/images/common/footer_logo.png"
-            alt="사운드 얼라이언스 로고"
-            class="footer-logo__img"
-          />
-        </a>
-        <span class="text-muted"
-          >© 2022 Sound Alliance | All rights reserved.
-        </span>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1 footer-logo"
+          >
+            <img
+              src="/images/common/footer_logo.png"
+              alt="사운드 얼라이언스 로고"
+              class="footer-logo__img"
+            />
+          </a>
+          <span class="text-muted"
+            >© 2022 Sound Alliance | All rights reserved.
+          </span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a
+              class="text-muted"
+              href="https://www.instagram.com/sound.alliance/"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
       </div>
 
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3">
-          <a
-            class="text-muted"
-            href="https://www.instagram.com/sound.alliance/"
-          >
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-        </li>
-      </ul>
+      <div class="d-flex justify-content-between align-items-center footer-info">
+        <div class="col-md-4 d-flex align-items-center">
+          <p class="text-muted"></p>
+            <em>Add.</em> 서울특별시 종로구 대학로12길 21 예스24스테이지 402호
+          </p>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><em>T.</em> 070-1234-1234</li>
+          <li class="ms-3"><em>F.</em> 070-1234-1234</li>
+          <li class="ms-3"><em>E.</em> 070-1234-1234</li>
+        </ul>
+      </div>
     </footer>
 
     <!-- javascript -->
