@@ -11,6 +11,7 @@
 @import "screens/project.css";
 @import "screens/equipment.css";
 @import "screens/news.css";
+@import "screens/contact.css";
 
 .inner {
   max-width: 1280px;
@@ -71,6 +72,7 @@ ol,
 ul {
   list-style: none;
 }
+
 a {
   text-decoration: none;
 }

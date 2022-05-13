@@ -1,0 +1,79 @@
+.contact-form {
+  padding: var(--section-padding);
+}
+
+.form-outline-style-v1 .form-group {
+  position: relative;
+  margin-bottom: 30px;
+}
+.form-outline-style-v1 .form-group label {
+  position: absolute;
+  top: 5px;
+  padding-left: 10px;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+.form-outline-style-v1 .form-group .form-control {
+  border: none;
+  background: none;
+  height: 45px;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  border-radius: 4px;
+  color: #000;
+  background: #efefef;
+}
+.form-outline-style-v1 .form-group .form-control:active,
+.form-outline-style-v1 .form-group .form-control:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.form-outline-style-v1 .form-group textarea {
+  height: auto !important;
+}
+.form-outline-style-v1 .form-group label {
+  font-size: 12px;
+  display: block;
+  margin-bottom: 0;
+  color: var(--bs-body-color);
+  text-transform: uppercase;
+  font-size: 0.875em;
+  font-weight: 600;
+}
+.form-outline-style-v1 .form-group.focus {
+  background: #000;
+}
+.form-outline-style-v1 .form-group.field--not-empty label {
+  margin-top: -35px;
+}
+
+.form-control {
+  border: none;
+  background: none;
+  color: #000;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.form-control:active,
+.form-control:focus {
+  background: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-bottom: 1px solid black;
+}
+
+.contact-btn {
+  color: #fff;
+  background-color: var(--theme-color-02);
+  border-color: var(--theme-color-02);
+  border-radius: 1.875rem 1.875rem;
+  padding: 0.938em 1.25rem;
+  display: inline-block;
+}
+.contact-btn:hover {
+  color: #fff;
+  background-color: var(--theme-color-01);
+  border-color: var(--theme-color-01);
+}
