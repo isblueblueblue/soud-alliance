@@ -4,3 +4,11 @@
 .intercom {
   padding: var(--section-padding);
 }
+
+.product-list {
+  text-align: center;
+  align-items: center;
+}
+.product-list .col {
+  margin-top: 30px;
+}
