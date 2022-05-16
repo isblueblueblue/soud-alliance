@@ -70,10 +70,25 @@
   border-color: var(--theme-color-02);
   border-radius: 1.875rem 1.875rem;
   padding: 0.938em 1.25rem;
-  display: inline-block;
+  font-weight: 600;
 }
 .contact-btn:hover {
   color: #fff;
   background-color: var(--theme-color-01);
   border-color: var(--theme-color-01);
+}
+
+.contact-info-v1 .contact-info-label {
+  font-weight: 600;
+  font-size: 0.875em;
+  color: var(--theme-color-01);
+}
+
+.contact-info-v1 .contact-info-val {
+  font-size: 1.125em;
+  color: var(--main-color);
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: 500;
 }
