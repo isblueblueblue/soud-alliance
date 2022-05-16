@@ -92,3 +92,8 @@
   margin-bottom: 20px;
   font-weight: 500;
 }
+#my-form-status {
+  font-size: 1rem;
+  color: var(--theme-color-01);
+  font-weight: 600;
+}
