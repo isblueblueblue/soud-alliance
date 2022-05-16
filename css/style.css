@@ -3,6 +3,7 @@
 @import "components/nav-bar.css";
 @import "components/visual.css";
 @import "components/footer.css";
+@import "components/media.css";
 
 /* screens */
 @import "screens/home.css";
@@ -16,6 +17,7 @@
 .inner {
   max-width: 1280px;
   margin: auto;
+  cursor: default;
 }
 
 .hide {
@@ -28,6 +30,10 @@
   overflow: hidden;
   visibility: hidden;
   line-height: 0;
+}
+
+.sub-visual {
+  color: rgba(255, 255, 255, 0.92);
 }
 
 h1 {
