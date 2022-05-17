@@ -5,6 +5,31 @@
   padding: var(--section-padding);
 }
 
+.product-img {
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 43.75em;
+}
+
+.console-img {
+  background-image: url(/images/screens/equipment/console.jpg);
+}
+
+.speaker-img {
+  background-position: 0% 0%;
+  background-image: url(/images/screens/equipment/speaker.png);
+}
+
+.mic-img {
+  background-image: url(/images/screens/equipment/mic.jpg);
+}
+
+.intercom-img {
+  background-image: url(/images/screens/equipment/intercom.jpg);
+}
+
 .product-list {
   text-align: center;
   align-items: center;
