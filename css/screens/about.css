@@ -195,6 +195,7 @@
 /* sub-location */
 .sub-location {
   padding: var(--section-padding);
+  padding-top: 0;
 }
 
 .sub-location__place {

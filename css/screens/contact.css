@@ -97,3 +97,55 @@
   color: var(--theme-color-01);
   font-weight: 600;
 }
+
+/* sub-location */
+.sub-location {
+  padding: var(--section-padding);
+  padding-top: 0;
+}
+
+.sub-location__place {
+  margin-bottom: 2.5rem;
+}
+
+.sub-location__place em {
+  margin-bottom: 1.5rem;
+}
+
+.sub-location__place p {
+  font-size: 1.188em;
+}
+
+/* map overlay */
+.label {
+  margin-bottom: 96px;
+}
+.label * {
+  display: inline-block;
+  vertical-align: top;
+}
+.label .left {
+  background: url("https://t1.daumcdn.net/localimg/localimages/07/2011/map/storeview/tip_l.png")
+    no-repeat;
+  display: inline-block;
+  height: 24px;
+  overflow: hidden;
+  vertical-align: top;
+  width: 7px;
+}
+.label .center {
+  background: url(https://t1.daumcdn.net/localimg/localimages/07/2011/map/storeview/tip_bg.png)
+    repeat-x;
+  display: inline-block;
+  height: 24px;
+  font-size: 12px;
+  line-height: 24px;
+}
+.label .right {
+  background: url("https://t1.daumcdn.net/localimg/localimages/07/2011/map/storeview/tip_r.png") -1px
+    0 no-repeat;
+  display: inline-block;
+  height: 24px;
+  overflow: hidden;
+  width: 6px;
+}
