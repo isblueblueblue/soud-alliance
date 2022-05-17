@@ -3,8 +3,8 @@
   overflow: hidden;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-image: url(/images/screens/visual.jpg);
   background-size: cover;
+  background-image: url(/images/screens/visual.jpg);
 }
 
 .main-visual {

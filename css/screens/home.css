@@ -35,6 +35,9 @@
   overflow: hidden;
   height: 41.25rem;
   position: absolute;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
 }
 
 .our-story__right__img-wrap:first-child {
@@ -42,6 +45,7 @@
   right: 0;
   width: 70%;
   height: 41.25rem;
+  background-image: url(/images/screens/main/our_team_01.jpg);
 }
 
 .our-story__right__img-wrap:last-child {
@@ -49,6 +53,7 @@
   left: 0;
   width: 60%;
   height: 37.5rem;
+  background-image: url(/images/screens/main/our_team_02.jpg);
 }
 
 .our-story__right__img-wrap img {

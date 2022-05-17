@@ -19,6 +19,10 @@
 }
 
 @media screen and (max-width: 1400px) {
+  section {
+    padding: 7rem 0 !important;
+  }
+
   .navbar {
     height: 5.5rem;
   }
@@ -43,11 +47,118 @@
   .news-list__item__text em {
     font-size: 1.125em;
   }
+
+  .footer-logo {
+    width: 10%;
+  }
+
+  .nav {
+    flex-wrap: nowrap;
+    font-size: 0.875em;
+  }
+
+  footer em {
+    font-size: 0.938em;
+  }
 }
 
 @media screen and (max-width: 1300px) {
+  .inner {
+    padding: 0 4rem;
+  }
   .navbar {
     padding: 0 2.8rem;
+  }
+
+  .main-visual {
+    height: 45rem;
+  }
+
+  .footer-info {
+    font-size: 0.938em;
+  }
+  .partners__list {
+    width: 50%;
+  }
+  .partners__item img {
+    width: 5em;
+  }
+
+  .ceo-performance-list .col em {
+    margin-bottom: 1rem;
+  }
+
+  .ceo-performance-list .col p {
+    max-height: 80%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar {
+    height: 5rem;
+    padding: 0 2rem;
+  }
+
+  .navbar-brand img {
+    width: 8rem;
+  }
+
+  .nav-link {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 1em;
+  }
+
+  #navbarDarkDropdownMenuLink {
+    font-size: 0.875em;
+  }
+
+  .main-visual {
+    height: 35rem;
+  }
+
+  .footer-info,
+  span.text-muted {
+    font-size: 0.813em;
+  }
+
+  .ceo-performance-list .col {
+    height: 15rem;
+  }
+
+  .ceo-performance-list .col em {
+    font-size: 1.125em;
+  }
+  .ceo-performance-list .col p {
+    font-size: 0.875em;
+  }
+  .ceo-performance-list .col:nth-child(3) {
+    padding-right: 0.625rem;
+  }
+
+  .crew__people__img {
+    height: 23rem;
+  }
+  .crew__people__text strong {
+    font-size: 1.375em;
+  }
+
+  .crew__people__text em {
+    font-size: 1.125em;
+  }
+
+  .crew__people__text p {
+    font-size: 1em;
+  }
+
+  .news-list__item {
+    height: 19rem;
+  }
+  .news-list__item__text em {
+    font-size: 1em;
+  }
+  .news-list__item__text p {
+    font-size: 0.875em;
   }
 }
 
