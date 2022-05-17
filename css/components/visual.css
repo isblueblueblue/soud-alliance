@@ -1,9 +1,10 @@
 .visual {
   width: 100%;
   overflow: hidden;
-}
-.visual .img-fluid {
-  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-image: url(/images/screens/visual.jpg);
+  background-size: cover;
 }
 
 .main-visual {

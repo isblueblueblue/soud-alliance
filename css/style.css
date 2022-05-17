@@ -3,7 +3,6 @@
 @import "components/nav-bar.css";
 @import "components/visual.css";
 @import "components/footer.css";
-@import "components/media.css";
 
 /* screens */
 @import "screens/home.css";
@@ -13,6 +12,8 @@
 @import "screens/equipment.css";
 @import "screens/news.css";
 @import "screens/contact.css";
+
+@import "components/media.css";
 
 .inner {
   max-width: 1280px;
