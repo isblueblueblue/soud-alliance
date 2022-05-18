@@ -1,0 +1,39 @@
+@media screen and (max-width: 1800px) {
+  body {
+    font-size: 0.93rem;
+  }
+  /* nav-bar */
+  .navbar {
+    padding: 0 2rem;
+  }
+  .navbar-brand img {
+    width: 11rem;
+  }
+  .nav-link {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  /* visual */
+  .main-visual {
+    height: 46rem;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1300px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+}

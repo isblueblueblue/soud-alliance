@@ -3816,7 +3816,7 @@ fieldset:disabled .btn {
   position: absolute;
   z-index: 1000;
   display: none;
-  min-width: 10rem;
+  /* min-width: 10rem; */
   padding: 0.5rem 0;
   margin: 0;
   font-size: 1rem;
@@ -3830,8 +3830,9 @@ fieldset:disabled .btn {
 }
 .dropdown-menu[data-bs-popper] {
   top: 100%;
-  left: 0;
+  left: 50%;
   margin-top: 0.125rem;
+  transform: translateX(-50%);
 }
 
 .dropdown-menu-start {

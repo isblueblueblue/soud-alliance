@@ -49,6 +49,18 @@ window.onscroll = function () {
   }
 };
 
+// moblie mode bar
+(() => {
+  "use strict";
+
+  document
+    .querySelector("#navbarSideCollapse")
+    .addEventListener("click", () => {
+      document.querySelector(".offcanvas-collapse").classList.toggle("open");
+      document.querySelector(".navbar").classList.toggle("open");
+    });
+})();
+
 // form-motion
 var floatingLabel = function () {
   $(".form-control").on("input", function () {

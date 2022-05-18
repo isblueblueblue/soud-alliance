@@ -75,6 +75,7 @@
 
 .icons {
   display: flex;
+  justify-content: center;
 }
 
 .icons a.btn:focus,
@@ -99,26 +100,23 @@
   color: rgba(79, 84, 88);
 }
 
-.bx-globe {
-  font-size: 1.75rem;
-  color: rgba(79, 84, 88, 0.55);
-}
-
-.globa-dropdown-toggle {
-  margin-right: 0;
-  font-size: 1em;
-}
-
-.globa-dropdown-toggle:hover {
+.globa-dropdown .dropdown-toggle {
   color: var(--main-color);
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgba(255, 255, 255, 0);
+  font-weight: 600;
+  position: relative;
+  font-size: 1.125em;
+  padding-right: 0rem;
 }
 
-.globa-dropdown .dropdown-menu {
-  min-width: 0;
+.globa-dropdown .dropdown-toggle:focus,
+.globa-dropdown .dropdown-toggle:active {
+  box-shadow: none;
 }
 
-.globa-dropdown .dropdown-menu[data-bs-popper] {
-  left: 15%;
+.dropdown-menu {
+  text-align: center;
 }
 
 .nav-link.on {
