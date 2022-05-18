@@ -21,9 +21,65 @@
 }
 
 @media screen and (max-width: 1400px) {
-}
-
-@media screen and (max-width: 1300px) {
+  body {
+    font-size: 0.85rem;
+  }
+  section {
+    padding: 9rem 0 !important;
+  }
+  .inner {
+    padding: 0 5rem;
+  }
+  /* nav-bar */
+  .nav-link {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .navbar-brand img {
+    width: 9.5rem;
+  }
+  /* visual */
+  .main-visual {
+    height: 40rem;
+  }
+  .sub-visual {
+    height: 30rem;
+  }
+  /* footer */
+  .footer-info {
+    margin-top: 1.5rem;
+  }
+  .footer-logo {
+    width: 10%;
+  }
+  footer .fa-brands {
+    font-size: 1.7em;
+  }
+  /* main - ourstory */
+  .our-story__left {
+    width: 45%;
+  }
+  .our-story__right {
+    width: 50%;
+    height: 35rem;
+  }
+  .our-story__right__img-wrap:first-child {
+    height: 30rem;
+    width: 80%;
+  }
+  .our-story__right__img-wrap:last-child {
+    height: 30rem;
+    width: 80%;
+  }
+  /* main - partners */
+  .partners__list {
+    width: 50%;
+  }
+  .partners__item img {
+    width: 5.5em;
+  }
+  /* sub - about */
+  /*  */
 }
 
 @media screen and (max-width: 1200px) {
